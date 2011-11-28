@@ -1,0 +1,19 @@
+Index: horizon/openstack-dashboard/setup.py
+===================================================================
+--- horizon.orig/openstack-dashboard/setup.py	2011-10-21 22:39:31.045089421 +0100
++++ horizon/openstack-dashboard/setup.py	2011-10-21 22:39:46.793090048 +0100
+@@ -25,14 +25,6 @@
+ def read(fname):
+     return open(os.path.join(os.path.dirname(__file__), fname)).read()
+ 
+-
+-dst = 'debian/openstack-dashboard/var/lib/dash'
+-os.system('rm -rf %s' % dst)
+-shutil.copytree('tools', '%s/tools' % dst)
+-shutil.copytree('dashboard', '%s/dashboard' % dst)
+-shutil.copytree('local', '%s/local' % dst)
+-
+-
+ setuptools.setup(
+     name = 'openstack-dashboard',
+     version = '0.4',

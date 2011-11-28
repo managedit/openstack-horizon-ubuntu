@@ -1,0 +1,19 @@
+Index: horizon/openstack-dashboard/dashboard/manage.py
+===================================================================
+--- horizon.orig/openstack-dashboard/dashboard/manage.py	2011-10-22 05:57:21.314134832 +0100
++++ horizon/openstack-dashboard/dashboard/manage.py	2011-10-22 05:57:45.206135784 +0100
+@@ -20,10 +20,13 @@
+ #    under the License.
+ 
+ from django.core.management import execute_manager
++import sys
++
++sys.path.append("/usr/share/openstack-dashboard/")
++
+ try:
+     import settings  # Assumed to be in the same directory.
+ except ImportError:
+-    import sys
+     sys.stderr.write("Error: Can't find the file 'settings.py' in the "
+     "directory containing %r. It appears you've customized things.\nYou'll "
+     "have to run django-admin.py, passing it your settings module.\n(If "

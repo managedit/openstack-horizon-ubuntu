@@ -1,0 +1,4 @@
+fix-manage-settings.patch
+fix-path-in-wsgi.patch
+fix-ubuntu-build.patch
+openstack-dashboard-config.patch

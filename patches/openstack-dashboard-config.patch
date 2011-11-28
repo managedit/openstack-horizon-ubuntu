@@ -1,0 +1,36 @@
+Index: horizon/openstack-dashboard/dashboard/settings.py
+===================================================================
+--- horizon.orig/openstack-dashboard/dashboard/settings.py	2011-10-21 21:22:18.848905086 +0100
++++ horizon/openstack-dashboard/dashboard/settings.py	2011-10-22 06:37:58.910231836 +0100
+@@ -119,6 +119,9 @@
+ 
+ TOTAL_CLOUD_RAM_GB = 10
+ 
++SYSCONFDIR = '/etc'
++sys.path.insert(0, SYSCONFDIR + '/openstack-dashboard')
++
+ try:
+     from local.local_settings import *
+ except Exception, e:
+Index: horizon/openstack-dashboard/local/local_settings.py.example
+===================================================================
+--- horizon.orig/openstack-dashboard/local/local_settings.py.example	2011-10-21 21:22:18.852905085 +0100
++++ horizon/openstack-dashboard/local/local_settings.py.example	2011-10-22 06:38:15.342232489 +0100
+@@ -9,7 +9,7 @@
+ DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+-        'NAME': os.path.join(LOCAL_PATH, 'dashboard_openstack.sqlite3'),
++        'NAME': '/var/lib/openstack-dashboard/dashboard_openstack.sqlite',
+     },
+ }
+ 
+@@ -42,7 +42,7 @@
+ SWIFT_ENABLED = False
+ 
+ # Configure quantum connection details for networking
+-QUANTUM_ENABLED = True
++QUANTUM_ENABLED = False
+ QUANTUM_URL = '127.0.0.1'
+ QUANTUM_PORT = '9696'
+ QUANTUM_TENANT = '1234'

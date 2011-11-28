@@ -1,0 +1,37 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+
+%:
+	dh $@  --with python2
+
+override_dh_auto_build:
+	# building django-openstack
+	cd $(CURDIR)/django-openstack && python setup.py build
+ 
+override_dh_auto_install:
+	# install it
+	cd $(CURDIR)/django-openstack && \
+		python setup.py install --prefix=/usr --root=$(CURDIR)/debian/python-django-openstack \
+		 --install-layout=deb
+
+	install -d -m 755 $(CURDIR)/debian/openstack-dashboard/etc/openstack-dashboard
+	install -d -m 755 $(CURDIR)/debian/openstack-dashboard/var/lib/openstack-dashboard
+	install -d -m 755 $(CURDIR)/debian/openstack-dashboard/var/log/openstack-dashboard
+
+override_dh_auto_clean:
+	# clean it all up
+	dh_clean
+
+UPSTREAM_GIT=git://github.com/4P/openstack-dashboard.git
+CURVER=$(shell dpkg-parsechangelog | grep ^Version | sed "s/Version: //" | sed "s/-0ubuntu//g)
+PACKAGE_NAME=openstack-dashboard
+SOURCE_DIR=$(PACKAGE_NAME)-$(CURVER)
+TARBALL=$(PACKAGE_NAME)_$(CURVER).orig.tar.gz
+
+get-orig-source:
+	git clone $(UPSTREAM_GIT) $(SOURCE_DIR)
+	cd $(SOURCE_DIR) && rm -rf .git*
+	cd $(SOURCE_DIR) && rm -rf openstack-dashboard/debian
+	tar czvf ../$(TARBALL) $(SOURCE_DIR)
+	rm -rf $(SOURCE_DIR) $(SOURCE_DIR).temp

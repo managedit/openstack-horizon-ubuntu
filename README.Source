@@ -1,0 +1,4 @@
+To get the most current tarball:
+
+1. Bump the date in the debian/changelog
+2. run fakeroot debian/rules get-orig-source

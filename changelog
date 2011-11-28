@@ -1,0 +1,70 @@
+horizon (0.1+20111102-0mit2) oneiric; urgency=low
+
+  * Update dependencies to ensure manage.py works out of the box
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Sun, 06 Nov 2011 22:56:25 +0000
+
+horizon (0.1+20111102-0mit1) oneiric; urgency=low
+
+  * New upstream version (5108947a74995f8049100d0ae3562de9b99a666a)
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Wed, 02 Nov 2011 21:27:49 +0000
+
+horizon (0.1~20111025-0mit1) oneiric; urgency=low
+
+  * New upstream version (c9b22ebf0af7a6e1da244525ec28ba78f60a244b)
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Tue, 25 Oct 2011 23:15:43 +0100
+
+horizon (0.1~20111021-0mit3) oneiric; urgency=low
+
+  * Bump version for PPA rebuild.
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Sat, 22 Oct 2011 06:55:51 +0100
+
+horizon (0.1~20111021-0mit2) oneiric; urgency=low
+
+  * Fix manage.py python paths.
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Sat, 22 Oct 2011 05:14:57 +0100
+
+horizon (0.1~20111021-0mit1) oneiric; urgency=low
+
+  * Rename from openstack-dashboard to horizon
+  * New upstream release (c0fdb7b704725df98e1f9b86a24ff15c9f5f9cf8)
+  * Fix "ImportError: Could not import settings 'dashboard.settings' (Is it on sys.path?)"
+  * Fix "ViewDoesNotExist: Could not import dashboard.views. Error was: No module named quantum.client"
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Fri, 21 Oct 2011 22:28:56 +0100
+
+openstack-dashboard (0.1~20110825-0ubuntu2) oneiric; urgency=low
+
+  * Fix FTBFS.
+  * Install openstack-dashboard properly.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Mon, 29 Aug 2011 11:46:57 -0400
+
+openstack-dashboard (0.1~20110825-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release.
+  * Simplify source packaging. 
+  * debian/patches/fix-ubuntu-build.patch: Fix sillyness with setup.py
+  * Add get-orig-source
+
+ -- Chuck Short <zulcss@ubuntu.com>  Wed, 24 Aug 2011 12:40:06 -0400
+
+openstack-dashboard (0.1~git20110809-0ubuntu1) oneiric; urgency=low
+
+  [Scott Moser]
+  * Initial Release.
+
+  [Chuck Short]
+  * debian/control:
+    - python-openstackx becomes openstackx.
+    - Bump debhelper to 8.
+  * Transition to dh_python2.
+  * Bump standards to 3.9.2
+  * debian/patches/openstack-dashboard-config.patch: Fix up openstack-dashbaord
+    configuration settings.
+   
+ -- Chuck Short <zulcss@ubuntu.com>  Thu, 21 Jul 2011 11:55:54 -0400

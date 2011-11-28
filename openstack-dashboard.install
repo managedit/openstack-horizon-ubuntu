@@ -1,0 +1,5 @@
+openstack-dashboard/dashboard usr/share/openstack-dashboard
+openstack-dashboard/local usr/share/openstack-dashboard
+debian/dashboard.conf etc/apache2/conf.d
+debian/__init__.py usr/share/openstack-dashboard/quantum
+debian/client.py usr/share/openstack-dashboard/quantum
