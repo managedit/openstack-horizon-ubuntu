@@ -1,3 +1,11 @@
+horizon (2011.3+201111281615-0mit1~1.gbp510894) oneiric; urgency=low
+
+  ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 16:15:53 +0000
+
 horizon (0.1+20111102-0mit2) oneiric; urgency=low
 
   * Update dependencies to ensure manage.py works out of the box
