@@ -1,4 +1,12 @@
-horizon (2011.3+20111129-0mit1~6.gbp510894) oneiric; urgency=low
+horizon (2011.3+20111129~1901-0mit1~8.gbp510894) oneiric; urgency=high
+
+  ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 29 Nov 2011 19:01:52 +0000
+
+horizon (2011.3+20111129-0mit1~6.gbp510894) oneiric; urgency=high
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
@@ -6,7 +14,7 @@ horizon (2011.3+20111129-0mit1~6.gbp510894) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 29 Nov 2011 18:52:00 +0000
 
-horizon (2011.3+20111128-0mit1~4.gbp510894) oneiric; urgency=low
+horizon (2011.3+20111128-0mit1~4.gbp510894) oneiric; urgency=high
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
@@ -14,7 +22,7 @@ horizon (2011.3+20111128-0mit1~4.gbp510894) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 20:34:20 +0000
 
-horizon (2011.3+20111128-0mit1~3.gbp510894) oneiric; urgency=low
+horizon (2011.3+20111128-0mit1~3.gbp510894) oneiric; urgency=high
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
@@ -22,7 +30,7 @@ horizon (2011.3+20111128-0mit1~3.gbp510894) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 19:33:47 +0000
 
-horizon (2011.3+20111128-0mit1~1.gbp510894) oneiric; urgency=low
+horizon (2011.3+20111128-0mit1~1.gbp510894) oneiric; urgency=high
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
@@ -30,37 +38,37 @@ horizon (2011.3+20111128-0mit1~1.gbp510894) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 16:15:53 +0000
 
-horizon (0.1+20111102-0mit2) oneiric; urgency=low
+horizon (0.1+20111102-0mit2) oneiric; urgency=high
 
   * Update dependencies to ensure manage.py works out of the box
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Sun, 06 Nov 2011 22:56:25 +0000
 
-horizon (0.1+20111102-0mit1) oneiric; urgency=low
+horizon (0.1+20111102-0mit1) oneiric; urgency=high
 
   * New upstream version (5108947a74995f8049100d0ae3562de9b99a666a)
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Wed, 02 Nov 2011 21:27:49 +0000
 
-horizon (0.1~20111025-0mit1) oneiric; urgency=low
+horizon (0.1~20111025-0mit1) oneiric; urgency=high
 
   * New upstream version (c9b22ebf0af7a6e1da244525ec28ba78f60a244b)
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Tue, 25 Oct 2011 23:15:43 +0100
 
-horizon (0.1~20111021-0mit3) oneiric; urgency=low
+horizon (0.1~20111021-0mit3) oneiric; urgency=high
 
   * Bump version for PPA rebuild.
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Sat, 22 Oct 2011 06:55:51 +0100
 
-horizon (0.1~20111021-0mit2) oneiric; urgency=low
+horizon (0.1~20111021-0mit2) oneiric; urgency=high
 
   * Fix manage.py python paths.
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Sat, 22 Oct 2011 05:14:57 +0100
 
-horizon (0.1~20111021-0mit1) oneiric; urgency=low
+horizon (0.1~20111021-0mit1) oneiric; urgency=high
 
   * Rename from openstack-dashboard to horizon
   * New upstream release (c0fdb7b704725df98e1f9b86a24ff15c9f5f9cf8)
@@ -69,14 +77,14 @@ horizon (0.1~20111021-0mit1) oneiric; urgency=low
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Fri, 21 Oct 2011 22:28:56 +0100
 
-openstack-dashboard (0.1~20110825-0ubuntu2) oneiric; urgency=low
+openstack-dashboard (0.1~20110825-0ubuntu2) oneiric; urgency=high
 
   * Fix FTBFS.
   * Install openstack-dashboard properly.
 
  -- Chuck Short <zulcss@ubuntu.com>  Mon, 29 Aug 2011 11:46:57 -0400
 
-openstack-dashboard (0.1~20110825-0ubuntu1) oneiric; urgency=low
+openstack-dashboard (0.1~20110825-0ubuntu1) oneiric; urgency=high
 
   * New upstream release.
   * Simplify source packaging. 
@@ -85,7 +93,7 @@ openstack-dashboard (0.1~20110825-0ubuntu1) oneiric; urgency=low
 
  -- Chuck Short <zulcss@ubuntu.com>  Wed, 24 Aug 2011 12:40:06 -0400
 
-openstack-dashboard (0.1~git20110809-0ubuntu1) oneiric; urgency=low
+openstack-dashboard (0.1~git20110809-0ubuntu1) oneiric; urgency=high
 
   [Scott Moser]
   * Initial Release.
