@@ -24,7 +24,6 @@ Depends: python-nova-adminclient,
          python-glance,
          python-nova,
          python-openstack-compute,
-         openstackx,
          python-cloudfiles,
          ${misc:Depends},
          ${python:Depends}
