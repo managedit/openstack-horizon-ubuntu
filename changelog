@@ -1,4 +1,12 @@
-horizon (2011.3+20120117~1113-0mit1~15.gbp510894) oneiric; urgency=low
+horizon (2011.3+20120117~1349-0mit1~17.gbp510894) oneiric; urgency=medium
+
+  ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 17 Jan 2012 13:49:33 +0000
+
+horizon (2011.3+20120117~1113-0mit1~15.gbp510894) oneiric; urgency=medium
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
@@ -6,7 +14,7 @@ horizon (2011.3+20120117~1113-0mit1~15.gbp510894) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 17 Jan 2012 11:13:42 +0000
 
-horizon (2011.3+20111130~2313-0mit1~14.gbp510894) oneiric; urgency=low
+horizon (2011.3+20111130~2313-0mit1~14.gbp510894) oneiric; urgency=medium
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
@@ -14,7 +22,7 @@ horizon (2011.3+20111130~2313-0mit1~14.gbp510894) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 29 Nov 2011 23:13:05 +0000
 
-horizon (2011.3+20111130~2252-0mit1~13.gbp510894) oneiric; urgency=low
+horizon (2011.3+20111130~2252-0mit1~13.gbp510894) oneiric; urgency=medium
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
@@ -22,7 +30,7 @@ horizon (2011.3+20111130~2252-0mit1~13.gbp510894) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 29 Nov 2011 22:52:21 +0000
 
-horizon (2011.3+20111130~2251-0mit1~12.gbp510894) oneiric; urgency=low
+horizon (2011.3+20111130~2251-0mit1~12.gbp510894) oneiric; urgency=medium
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
@@ -30,7 +38,7 @@ horizon (2011.3+20111130~2251-0mit1~12.gbp510894) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Tue, 29 Nov 2011 22:51:16 +0000
 
-horizon (2011.3+20111130~1952-0mit1~11.gbp510894) oneiric; urgency=low
+horizon (2011.3+20111130~1952-0mit1~11.gbp510894) oneiric; urgency=medium
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
 
