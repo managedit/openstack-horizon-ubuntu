@@ -1,3 +1,11 @@
+horizon (2011.3+20120121~1341-0mit1~21.gbp510894) oneiric; urgency=medium
+
+  ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Sat, 21 Jan 2012 13:41:52 +0000
+
 horizon (2011.3+20120117~1349-0mit1~17.gbp510894) oneiric; urgency=medium
 
   ** SNAPSHOT build @5108947a74995f8049100d0ae3562de9b99a666a **
