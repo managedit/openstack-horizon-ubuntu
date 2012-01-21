@@ -3,6 +3,7 @@
 set -e
 
 if [ "$1" = "configure" ]; then
+	ln -f -s /etc/openstack-dashboard/local_settings.py /usr/share/openstack-dashboard/local/local_settings.py
 	/usr/share/openstack-dashboard/dashboard/manage.py syncdb
 
 	chown -R www-data:www-data /var/lib/openstack-dashboard/
