@@ -25,6 +25,7 @@ Depends: python-nova-adminclient,
          python-nova,
          python-openstack-compute,
          python-cloudfiles,
+         openstackx,
          ${misc:Depends},
          ${python:Depends}
 Description: Django module providing web based interaction with OpenStack Nova
